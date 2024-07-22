@@ -8,13 +8,14 @@ import PostFetchingWithButton from './components/PostFetchWithButton';
 import ContextA from './components/UseContext/ContextA';
 import CounterOne from './components/Hook4';
 import UseReducer from './components/Hook5'
+import UseRef from './components/Hook6';
 import Test from './components/Test'
 
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      <UseRef />
     </div>
   );
 }
